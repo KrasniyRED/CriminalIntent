@@ -2,6 +2,7 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("com.google.devtools.ksp")
+    id("androidx.navigation.safeargs")
 
 }
 
@@ -54,6 +55,8 @@ dependencies {
     implementation ("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
     implementation ("androidx.room:room-runtime:2.6.0-rc01")
     implementation ("androidx.room:room-ktx:2.6.0-rc01")
+    implementation ("androidx.navigation:navigation-fragment-ktx:2.7.4")
+    implementation ("androidx.navigation:navigation-ui-ktx:2.7.4")
     ksp("androidx.room:room-compiler:2.5.2")
 
 
